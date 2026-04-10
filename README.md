@@ -1,108 +1,125 @@
-# EduPlan AI
+# 🎓 EduPlan AI
 
-![Banner](./assets/banner.png)
+![EduPlan AI Banner](assets/banner.png)
 
-EduPlan AI is an AI-powered platform designed to help teachers create structured educational plans in minutes.
+EduPlan AI is an AI-powered platform that helps teachers create structured, professional educational plans in minutes.
 
----
-
-## 🚀 What it does
-
-- Generate educational plans using AI  
-- Create visual banners for each activity  
-- Generate PAA documents  
-- Generate parent documents  
-- Calculate costs  
+Designed for real-world school use, it supports study visits, classroom activities, and institutional documentation.
 
 ---
 
-## 📸 Demo
+## Core Features
 
-### Step 1: Define the activity
-![Setup](./docs/screens/setup.png)
-
-### Step 2: Generated plan
-![Plan](./docs/screens/plan.png)
-
-### Step 3: Materials and costs
-![Costs](./docs/screens/costs.png)
-
-### Step 4: Final output
-![Output](./docs/screens/output.png)
+- 🤖 AI-generated educational plans
+- 🖼️ Automatic activity banner generation
+- 📄 PAA (Annual Activity Plan) document export
+- 📝 Parent authorization document generation
+- 💰 Automatic cost calculation per student and total
+- 🌍 Multi-language support (PT, EN, ES, FR)
+- 🧠 Suggested subjects and pedagogical structure
 
 ---
 
-## ⚙️ Installation
+## Application Preview
 
-Clone the repo:
+### 🧩 Setup – Define the activity
+![Setup](docs/screens/setup.png)
 
-```bash
-git clone https://github.com/your-username/eduplan-ai.git
-cd eduplan-ai
-```
+### 🧠 Generated Educational Plan
+![Plan](docs/screens/plan.png)
 
-Create environment:
+### 💰 Costs and Materials
+![Costs](docs/screens/costs.png)
 
-```bash
+### 📄 Final Output and Documents
+![Output](docs/screens/output.png)
+
+---
+
+##  Installation
+Clone the repository:
+
+git clone https://github.com/valterjalvesteixeira/Eduplan-AI.git
+
+cd Eduplan-AI
+
+Create virtual environment:
+
 python -m venv .venv
-```
 
-Activate:
+Activate environment (Windows):
 
-```bash
 .venv\Scripts\activate
-```
 
-Install:
+Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+python -m pip install -r requirements.txt
 
 ---
+##  API Configuration
 
-## 🔐 API Key
+Create a .env file in the root folder:
 
-Create a `.env` file:
-
-```
 OPENAI_API_KEY=your_api_key_here
-```
-
-Important:
-- Do not upload `.env`
-- Add it to `.gitignore`
 
 ---
+##  Important:
 
-## ▶️ Run
+Do NOT share your API key
+Do NOT upload .env to GitHub
+Ensure .env is in .gitignore
 
-```bash
+---
+##  ▶️ Run the Application
+
 streamlit run app.py
-```
 
-Open:
-```
+Open in your browser:
+
 http://localhost:8501
-```
+ 
+---
+##  How it Works
+Select a theme (e.g., History, Science)
+Define the activity details
+Generate a structured plan using AI
+Automatically generate:
+Educational plan
+Activity banner
+PAA document
+Parent authorization
+Export documents as PDF
 
 ---
+##  Use Cases
 
-## 🌍 Features
-
-- Multi-language (PT, EN, ES, FR)  
-- AI-generated plans  
-- PDF generation  
-- Activity banners  
+School study visits
+Classroom activities
+Educational program planning
+Institutional reporting (PAA)
+Teacher workflow optimization
 
 ---
+️## Tech Stack
 
-## 👤 Author
+Python
+Streamlit
+OpenAI API
+ReportLab (PDF generation)
+Pillow (image processing)
+
+---
+##  Project Status
+Core functionality complete
+Continuous improvements in UI/UX and automation
+Ready for real-world testing in educational environments
+
+---
+##  👤 Author
 
 Valter Teixeira
 
 ---
-
-## 📌 License
+##  📄 License
 
 MIT

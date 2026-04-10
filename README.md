@@ -22,16 +22,16 @@ Designed for real-world school use, it supports study visits, classroom activiti
 
 ## Application Preview
 
-### 🧩 Setup – Define the activity
+###  Setup – Define the activity
 ![Setup](docs/screens/setup.png)
 
-### 🧠 Generated Educational Plan
+###  Generated Educational Plan
 ![Plan](docs/screens/plan.png)
 
-### 💰 Costs and Materials
+###  Costs and Materials
 ![Costs](docs/screens/costs.png)
 
-### 📄 Final Output and Documents
+###  Final Output and Documents
 ![Output](docs/screens/output.png)
 
 ---
@@ -94,24 +94,34 @@ Export documents as PDF
 ##  Use Cases
 
 School study visits
+
 Classroom activities
+
 Educational program planning
+
 Institutional reporting (PAA)
+
 Teacher workflow optimization
 
 ---
-️## Tech Stack
 
+##  ️Tech Stack
 Python
+
 Streamlit
+
 OpenAI API
+
 ReportLab (PDF generation)
+
 Pillow (image processing)
 
 ---
 ##  Project Status
 Core functionality complete
+
 Continuous improvements in UI/UX and automation
+
 Ready for real-world testing in educational environments
 
 ---
@@ -119,7 +129,6 @@ Ready for real-world testing in educational environments
 
 Valter Teixeira
 
----
 ##  📄 License
 
 MIT
